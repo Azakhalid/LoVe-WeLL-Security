@@ -37,7 +37,7 @@ const dateFormat = require("dateformat");
 var table = require("table").table;
 const Discord = require("discord.js");
 const cmd = require("node-cmd");
-const prefix = "s!";
+const prefix = "l!";
 const cooldown = new Set();
 const cdtime = 5;
 ///////////////////////////////////////////////////////////////////////////////
@@ -175,7 +175,7 @@ calli.on("message", message => {
 
 > if you do not follow these rule's results may be in the following bellow:
 
-> Temp Mute
+> Temp Muteo
 > Temp Kick
 > Temp Ban
 > Perm Ban
